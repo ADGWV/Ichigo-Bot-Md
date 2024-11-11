@@ -1,3 +1,9 @@
+/*
+اسم البوت 𝐈𝐂𝐇𝐈𝐆𝐎-𝐁𝐎𝐓-𝐌𝐃
+تابع حسابي في Github @ADGWV
+اسم الملف _antiviewonce.js 
+قناه البوت https://whatsapp.com/channel/0029VarBiDU7dmeivAXXgZ0f
+*/
 const {downloadContentFromMessage} = (await import('@whiskeysockets/baileys'));
 // لتكوين اللغة، في جذر المشروع، قم بتغيير ملف config.json
 
