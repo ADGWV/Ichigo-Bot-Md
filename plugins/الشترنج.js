@@ -62,7 +62,7 @@ const handler = async (m, { conn, args }) => {
       const fen = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1';
       chessdata.fen = fen;
       const encodedFen = encodeURIComponent(fen);
-      const turn = `『𝙕𝙊𝙍𝙊-𝘽𝙊𝙏』دور: *الابيض* @${gamedata.white.split('@')[0]}`;
+      const turn = `┃ 𝙄𝘾𝙃𝙄𝙂𝙊 𝘽𝙊𝙏-𝙈𝘿 𖤍🍷دور: *الابيض* @${gamedata.white.split('@')[0]}`;
       const flipParam = senderId === gamedata.black ? '' : '&flip=true';
       const flipParam2 = senderId === gamedata.black ? '' : '-flip';
       const boardUrl = `https://www.chess.com/dynboard?fen=${encodedfen}&board=graffiti&piece=graffiti&size=3&coordinates=inside${flipParam}`;
@@ -119,7 +119,7 @@ const handler = async (m, { conn, args }) => {
     chessdata.currentTurn = players[nextturnindex];
     const encodedFen = encodeURIComponent(chess.fen());
     const currentColor = chessdata.currentTurn === gamedata.white ? 'الابيض' : 'الاسود';
-    const turn = `『𝙕𝙊𝙍𝙊-𝘽𝙊𝙏』 *دور:* ${currentcolor} @${chessdata.currentTurn.split('@')[0]}\n\n${chess.getComment() || ''}`;
+    const turn = `┃ 𝙄𝘾𝙃𝙄𝙂𝙊 𝘽𝙊𝙏-𝙈𝘿 𖤍🍷 *دور:* ${currentcolor} @${chessdata.currentTurn.split('@')[0]}\n\n${chess.getComment() || ''}`;
     const flipParam = senderid === gamedata.black ? '' : '&flip=true';
     const flipParam2 = senderid === gamedata.black ? '' : '-flip';
     const boardUrl = `https://www.chess.com/dynboard?fen=${encodedfen}&board=graffiti&piece=graffiti&size=3&coordinates=inside${flipparam}`;
@@ -148,7 +148,7 @@ const handler = async (m, { conn, args }) => {
 بعدها اكتب *شطرنج ادخل* عشان تخش انت وصاحبك اللعبه.
     `, m);
   }
-  return conn.reply(m.chat, '𝑰𝑪𝑯𝑰𝑮𝑶『🎃』“ امر خاطئ. استعمل*"شطرنج مساعده"* عشان تشوف الاوامر شغاله ازاي.', m);
+  return conn.reply(m.chat, '┃ 𝙄𝘾𝙃𝙄𝙂𝙊 𝘽𝙊𝙏-𝙈𝘿 𖤍🍷“ امر خاطئ. استعمل*"شطرنج مساعده"* عشان تشوف الاوامر شغاله ازاي.', m);
 };
 
 handler.help = ['chess [from to]', 'chess delete', 'chess join', 'chess start'];
