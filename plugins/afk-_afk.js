@@ -1,3 +1,9 @@
+/*
+اسم البوت 𝐈𝐂𝐇𝐈𝐆𝐎-𝐁𝐎𝐓-𝐌𝐃
+تابع حسابي في Github @ADGWV
+اسم الملف afk-_afk.js 
+قناه البوت https://whatsapp.com/channel/0029VarBiDU7dmeivAXXgZ0f
+*/
 export function before(m) {
   let user = global.db.data.users[m.sender]
   if (user.afk > -1) {
