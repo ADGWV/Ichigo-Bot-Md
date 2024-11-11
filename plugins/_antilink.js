@@ -1,6 +1,9 @@
-
-// TheMystic-Bot-MD@BrunoSobrino- _antilink.js
-
+/*
+اسم البوت 𝐈𝐂𝐇𝐈𝐆𝐎-𝐁𝐎𝐓-𝐌𝐃
+تابع حسابي في Github @ADGWV
+اسم الملف _antilink.js 
+قناه البوت https://whatsapp.com/channel/0029VarBiDU7dmeivAXXgZ0f
+*/
   
 const linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i;
 export async function before(m, {conn, isAdmin, isBotAdmin}) {
