@@ -1,3 +1,9 @@
+/*
+اسم البوت 𝐈𝐂𝐇𝐈𝐆𝐎-𝐁𝐎𝐓-𝐌𝐃
+تابع حسابي في Github @ADGWV
+اسم الملف anticall.js 
+قناه البوت https://whatsapp.com/channel/0029VarBiDU7dmeivAXXgZ0f
+*/
 const delay = time => new Promise(res => setTimeout(res, time))
 
 export async function before(m) {
