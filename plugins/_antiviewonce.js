@@ -1,8 +1,5 @@
 const {downloadContentFromMessage} = (await import('@whiskeysockets/baileys'));
- // Para configurar o idioma, na raiz do projeto altere o arquivo config.json
-  // Para configurar el idioma, en la raíz del proyecto, modifique el archivo config.json.
-  // To set the language, in the root of the project, modify the config.json file.
-
+// لتكوين اللغة، في جذر المشروع، قم بتغيير ملف config.json
 
 export async function before(m, {isAdmin, isBotAdmin}) {
   const datas = global
@@ -29,3 +26,10 @@ export async function before(m, {isAdmin, isBotAdmin}) {
     }
   }
 }
+
+/*
+اسم البوت 𝐈𝐂𝐇𝐈𝐆𝐎-𝐁𝐎𝐓-𝐌𝐃
+تابع حسابي في Github @ADGWV
+اسم الملف _antiviewonce.js
+قناه البوت https://whatsapp.com/channel/0029VarBiDU7dmeivAXXgZ0f
+*/
