@@ -1,3 +1,9 @@
+/*
+اسم البوت 𝐈𝐂𝐇𝐈𝐆𝐎-𝐁𝐎𝐓-𝐌𝐃
+تابع حسابي في Github @ADGWV
+اسم الملف _chatbot0.js
+قناه البوت https://whatsapp.com/channel/0029VarBiDU7dmeivAXXgZ0f
+*/
 let handler  = async (m, { conn }) => { 
  let name = conn.getName(m.sender) 
  let teks = ` 
