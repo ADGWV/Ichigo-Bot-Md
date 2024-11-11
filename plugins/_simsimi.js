@@ -1,3 +1,9 @@
+/*
+اسم البوت 𝐈𝐂𝐇𝐈𝐆𝐎-𝐁𝐎𝐓-𝐌𝐃
+تابع حسابي في Github @ADGWV
+اسم الملف _simsimi.js
+قناه البوت https://whatsapp.com/channel/0029VarBiDU7dmeivAXXgZ0f
+*/
 function _0x5b94(_0x439157, _0x195db8) {
   const _0x5b94b5 = _0x195d();
   _0x5b94 = function (_0x211e9a, _0x5266a5) {
