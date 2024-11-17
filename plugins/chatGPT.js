@@ -1,3 +1,15 @@
+/*
+
+اسم البوت 𝐈𝐂𝐇𝐈𝐆𝐎-𝐁𝐎𝐓-𝐌𝐃
+
+تابع حسابي في Github @ADGWV
+
+اسم الملف chatGPT.js
+
+قناه البوت https://whatsapp.com/channel/0029VarBiDU7dmeivAXXgZ0f
+
+*/
+
 
 paimport fetch from 'node-fetch';
 import axios from 'axios';
