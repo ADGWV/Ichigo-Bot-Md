@@ -1,3 +1,16 @@
+/*
+
+اسم البوت 𝐈𝐂𝐇𝐈𝐆𝐎-𝐁𝐎𝐓-𝐌𝐃
+
+تابع حسابي في Github @ADGWV
+
+اسم الملف convertidor-toanime.js
+
+قناه البوت https://whatsapp.com/channel/0029VarBiDU7dmeivAXXgZ0f
+
+*/
+
+
 import uploadImage from '../lib/uploadImage.js';
 const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   const q = m.quoted ? m.quoted : m;
