@@ -1,3 +1,16 @@
+/*
+
+اسم البوت 𝐈𝐂𝐇𝐈𝐆𝐎-𝐁𝐎𝐓-𝐌𝐃
+
+تابع حسابي في Github @ADGWV
+
+اسم الملف cartoon.js
+
+قناه البوت https://whatsapp.com/channel/0029VarBiDU7dmeivAXXgZ0f
+
+*/
+
+
 import axios from "axios";
 import jimp from "jimp";
 import FormData from "form-data";
