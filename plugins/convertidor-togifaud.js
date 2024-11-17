@@ -1,3 +1,16 @@
+/*
+
+اسم البوت 𝐈𝐂𝐇𝐈𝐆𝐎-𝐁𝐎𝐓-𝐌𝐃
+
+تابع حسابي في Github @ADGWV
+
+اسم الملف convertidor-togifaud.js
+
+قناه البوت https://whatsapp.com/channel/0029VarBiDU7dmeivAXXgZ0f
+
+*/
+
+
 const handler = async (m, {conn, usedPrefix, command}) => {
   if (!m.quoted) throw `*[❗تنبيه❗] قم بالرد علي الفيديو اللي عايز تحولوا الي gif*`;
   const q = m.quoted || m;
